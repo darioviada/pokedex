@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+body {
+    background: linear-gradient(to bottom, rgba(4,58,175,1) 0%, rgba(129,56,246,1) 100%);
+    
+    
+}
+
+.contenedor {
+    width: 80%;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.caracteristicas{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 10px 0px 10px;
+    border: 1px solid #DEDEDE;
+}
+.primero {
+    border-radius: 8px 8px 0px 0px;
+    
+    text-align: center;
+}
+.ultimo {
+    border-radius: 0px 0px 8px 8px;
+}
+
+.titulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+}
+.cuadro_imagen {
+    height: 100px;
+    width: 100px;
+    
+    display: inline-block;
+    margin-bottom: 10px;
+
+}
